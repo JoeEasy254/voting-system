@@ -1,0 +1,72 @@
+{
+    "admin": [
+      {
+        "admin_id": 1,
+        "name": "Alice Johnson",
+        "email": "alice.johnson@school.com",
+        "password": "hashed_password_1",
+        "role": "super_admin",
+        "election_status": "open"
+      },
+      {
+        "admin_id": 2,
+        "name": "Bob Smith",
+        "email": "bob.smith@school.com",
+        "password": "hashed_password_2",
+        "role": "assistant_admin",
+        "election_status": "open"
+      }
+    ],
+    "voters": [
+      {
+        "voter_id": 1001,
+        "name": "John Doe",
+        "email": "john.doe@student.com",
+        "password": "hashed_password_3",
+        "has_voted": false,
+        "voting_code": "VOTER1234"
+      },
+      {
+        "voter_id": 1002,
+        "name": "Jane Smith",
+        "email": "jane.smith@student.com",
+        "password": "hashed_password_4",
+        "has_voted": true,
+        "voting_code": "VOTER5678"
+      }
+    ],
+    
+    "candidates": [
+      {
+        "candidate_id": 1,
+        "name": "Evelyn Clark",
+        "position": "President",
+        "photo_url": "https://example.com/images/evelyn.jpg",
+        "bio": "Dedicated to improving student life and education.",
+        "vote_count": 120
+      },
+      {
+        "candidate_id": 2,
+        "name": "Michael Brown",
+        "position": "President",
+        "photo_url": "https://example.com/images/michael.jpg",
+        "bio": "Focused on transparency and student empowerment.",
+        "vote_count": 95
+      }
+    ],
+    "votes": [
+      {
+        "vote_id": 1,
+        "voter_id": 1002,
+        "candidate_id": 1,
+        "timestamp": "2024-12-16T14:30:00Z"
+      },
+      {
+        "vote_id": 2,
+        "voter_id": 1003,
+        "candidate_id": 2,
+        "timestamp": "2024-12-16T14:32:00Z"
+      }
+    ]
+  }
+  
